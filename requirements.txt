@@ -1,0 +1,86 @@
+# === CORE DEPENDENCIES ===
+# Web Framework
+streamlit>=1.28.0
+
+# Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# === AI/ML DEPENDENCIES ===
+# Groq API Client
+groq>=0.4.0
+
+# Optional: Ollama (for local models)
+# ollama>=0.1.0
+
+# Translation Services
+googletrans>=4.0.0
+
+# === DOCUMENT GENERATION ===
+# Word Documents
+python-docx>=0.8.11
+
+# PDF Generation
+reportlab>=4.0.0
+
+# === UTILITY DEPENDENCIES ===
+# Environment Variables
+python-dotenv>=1.0.0
+
+# HTTP Requests
+requests>=2.31.0
+
+# Type Hints Support
+typing-extensions>=4.7.0
+
+# === OPTIONAL DEPENDENCIES ===
+# For advanced data processing
+scipy>=1.11.0
+
+# For statistical analysis
+scikit-learn>=1.3.0
+
+# For datetime processing
+python-dateutil>=2.8.2
+
+# For JSON handling (usually included in Python)
+# json (built-in)
+
+# For system operations
+# os (built-in)
+# sys (built-in)
+
+# === DEVELOPMENT DEPENDENCIES (Optional) ===
+# Code formatting
+# black>=23.0.0
+
+# Linting
+# flake8>=6.0.0
+
+# Type checking
+# mypy>=1.5.0
+
+# Testing
+# pytest>=7.4.0
+# pytest-cov>=4.1.0
+
+# === PLATFORM SPECIFIC ===
+# Windows specific (optional)
+# pywin32>=306  # For Windows file operations
+
+# macOS specific (optional)
+# pyobjc>=9.2  # For macOS integration
+
+# === VERSION CONSTRAINTS ===
+# Ensure compatibility
+matplotlib>=3.7.0,<4.0.0
+pandas>=2.0.0,<3.0.0
+streamlit>=1.28.0,<2.0.0
+
+# Security updates
+urllib3>=2.0.0
+certifi>=2023.7.22
