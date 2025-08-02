@@ -43,8 +43,8 @@ NoCodeDataAnalysis is an advanced AI platform that enables professional data ana
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/NoCodeDataAnalysis.git
-cd NoCodeDataAnalysis
+git clone https://github.com/emrtrkr/Agentic-Data-Analysis-App.git
+cd Agentic_Data_Analysis
 ```
 
 ### 2. Create Virtual Environment (Recommended)
